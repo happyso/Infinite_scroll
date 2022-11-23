@@ -1,6 +1,6 @@
 # Infinite Scroll
 
-### A project to demonstrate React Query useInfiniteQuery, for the Udemy course "React Query: Server State Management for React"
+### 리엑트 쿼리를 사용한 무한 스크롤 예시 페이지
 
 ## 사용 방법
 
