@@ -1,0 +1,33 @@
+import './App.css'
+import { InfinitePeople } from './people/InfinitePeople'
+import { InfiniteSpecies } from './species/InfiniteSpecies'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+import { useState } from 'react'
+import RadioGroup from './RadioGroup'
+import Radio from './Radio'
+const queryClient = new QueryClient()
+
+function App() {
+    const [value, setValue] = useState('people')
+
+    return (
+        <QueryClientProvider client={queryClient}>
+            <div className="App">
+                <h1>Infinite SWAPI</h1>
+                <RadioGroup label="선택 하기" value={value} onChange={setValue}>
+                    <Radio value="people" style={{ display: 'block' }}>
+                        사람
+                    </Radio>
+                    <Radio value="species" style={{ display: 'block' }}>
+                        종류
+                    </Radio>
+                </RadioGroup>
+                {value === 'people' ? <InfinitePeople /> : <InfiniteSpecies />}
+            </div>
+            <ReactQueryDevtools initialIsOpen={false} />
+        </QueryClientProvider>
+    )
+}
+
+export default App
