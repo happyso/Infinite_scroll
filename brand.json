@@ -1,0 +1,546 @@
+{
+    "brand": [
+        {
+            "id": 28,
+            "name": "현대",
+            "auctions_count": 204
+        },
+        {
+            "id": 33,
+            "name": "기아",
+            "auctions_count": 128
+        },
+        {
+            "id": 44,
+            "name": "쉐보레(GM대우)",
+            "auctions_count": 86
+        },
+        {
+            "id": 55,
+            "name": "르노삼성",
+            "auctions_count": 57
+        },
+        {
+            "id": 3,
+            "name": "쌍용",
+            "auctions_count": 20
+        },
+        {
+            "id": 68,
+            "name": "제네시스",
+            "auctions_count": 2
+        },
+        {
+            "id": 6,
+            "name": "화물·버스·특장",
+            "auctions_count": 0
+        },
+        {
+            "id": 13,
+            "name": "BMW",
+            "auctions_count": 91
+        },
+        {
+            "id": 31,
+            "name": "벤츠",
+            "auctions_count": 30
+        },
+        {
+            "id": 56,
+            "name": "아우디",
+            "auctions_count": 32
+        },
+        {
+            "id": 63,
+            "name": "폭스바겐",
+            "auctions_count": 23
+        },
+        {
+            "id": 29,
+            "name": "미니",
+            "auctions_count": 8
+        },
+        {
+            "id": 16,
+            "name": "인피니티",
+            "auctions_count": 5
+        },
+        {
+            "id": 15,
+            "name": "렉서스",
+            "auctions_count": 6
+        },
+        {
+            "id": 17,
+            "name": "GMC",
+            "auctions_count": 1
+        },
+        {
+            "id": 64,
+            "name": "닛산",
+            "auctions_count": 2
+        },
+        {
+            "id": 47,
+            "name": "다이하쯔",
+            "auctions_count": 0
+        },
+        {
+            "id": 9,
+            "name": "닷지",
+            "auctions_count": 0
+        },
+        {
+            "id": 39,
+            "name": "도요타",
+            "auctions_count": 4
+        },
+        {
+            "id": 4,
+            "name": "람보르기니",
+            "auctions_count": 0
+        },
+        {
+            "id": 35,
+            "name": "랜드로버",
+            "auctions_count": 5
+        },
+        {
+            "id": 10,
+            "name": "로버",
+            "auctions_count": 0
+        },
+        {
+            "id": 60,
+            "name": "로터스",
+            "auctions_count": 0
+        },
+        {
+            "id": 25,
+            "name": "롤스로이스",
+            "auctions_count": 0
+        },
+        {
+            "id": 50,
+            "name": "르노",
+            "auctions_count": 0
+        },
+        {
+            "id": 22,
+            "name": "링컨",
+            "auctions_count": 3
+        },
+        {
+            "id": 58,
+            "name": "마세라티",
+            "auctions_count": 2
+        },
+        {
+            "id": 11,
+            "name": "마이바흐",
+            "auctions_count": 0
+        },
+        {
+            "id": 19,
+            "name": "마쯔다",
+            "auctions_count": 0
+        },
+        {
+            "id": 38,
+            "name": "맥라렌",
+            "auctions_count": 0
+        },
+        {
+            "id": 14,
+            "name": "머큐리",
+            "auctions_count": 0
+        },
+        {
+            "id": 43,
+            "name": "미쯔비시",
+            "auctions_count": 0
+        },
+        {
+            "id": 12,
+            "name": "미쯔오까",
+            "auctions_count": 0
+        },
+        {
+            "id": 26,
+            "name": "벤틀리",
+            "auctions_count": 0
+        },
+        {
+            "id": 61,
+            "name": "볼보",
+            "auctions_count": 1
+        },
+        {
+            "id": 23,
+            "name": "부가티",
+            "auctions_count": 0
+        },
+        {
+            "id": 66,
+            "name": "북기은상",
+            "auctions_count": 0
+        },
+        {
+            "id": 2,
+            "name": "뷰익",
+            "auctions_count": 0
+        },
+        {
+            "id": 34,
+            "name": "사브",
+            "auctions_count": 0
+        },
+        {
+            "id": 27,
+            "name": "사이언",
+            "auctions_count": 0
+        },
+        {
+            "id": 41,
+            "name": "새턴",
+            "auctions_count": 0
+        },
+        {
+            "id": 59,
+            "name": "쉐보레",
+            "auctions_count": 0
+        },
+        {
+            "id": 48,
+            "name": "스마트",
+            "auctions_count": 0
+        },
+        {
+            "id": 52,
+            "name": "스바루",
+            "auctions_count": 0
+        },
+        {
+            "id": 49,
+            "name": "스즈키",
+            "auctions_count": 0
+        },
+        {
+            "id": 53,
+            "name": "시트로엥",
+            "auctions_count": 0
+        },
+        {
+            "id": 5,
+            "name": "알파 로메오",
+            "auctions_count": 0
+        },
+        {
+            "id": 54,
+            "name": "애스턴마틴",
+            "auctions_count": 0
+        },
+        {
+            "id": 65,
+            "name": "어큐라",
+            "auctions_count": 0
+        },
+        {
+            "id": 1,
+            "name": "오펠",
+            "auctions_count": 0
+        },
+        {
+            "id": 40,
+            "name": "올즈모빌",
+            "auctions_count": 0
+        },
+        {
+            "id": 24,
+            "name": "이스즈",
+            "auctions_count": 0
+        },
+        {
+            "id": 32,
+            "name": "재규어",
+            "auctions_count": 1
+        },
+        {
+            "id": 20,
+            "name": "지프",
+            "auctions_count": 4
+        },
+        {
+            "id": 36,
+            "name": "캐딜락",
+            "auctions_count": 1
+        },
+        {
+            "id": 57,
+            "name": "코닉세그",
+            "auctions_count": 0
+        },
+        {
+            "id": 62,
+            "name": "크라이슬러",
+            "auctions_count": 0
+        },
+        {
+            "id": 69,
+            "name": "테슬라",
+            "auctions_count": 0
+        },
+        {
+            "id": 46,
+            "name": "파가니",
+            "auctions_count": 0
+        },
+        {
+            "id": 37,
+            "name": "페라리",
+            "auctions_count": 0
+        },
+        {
+            "id": 30,
+            "name": "포드",
+            "auctions_count": 6
+        },
+        {
+            "id": 42,
+            "name": "포르쉐",
+            "auctions_count": 3
+        },
+        {
+            "id": 67,
+            "name": "포톤",
+            "auctions_count": 0
+        },
+        {
+            "id": 21,
+            "name": "폰티악",
+            "auctions_count": 0
+        },
+        {
+            "id": 51,
+            "name": "푸조",
+            "auctions_count": 8
+        },
+        {
+            "id": 8,
+            "name": "피아트",
+            "auctions_count": 1
+        },
+        {
+            "id": 18,
+            "name": "험머",
+            "auctions_count": 0
+        },
+        {
+            "id": 45,
+            "name": "혼다",
+            "auctions_count": 0
+        }
+    ],
+    "cartype": [
+        {
+            "id": 213,
+            "name": "i30",
+            "brand": 28,
+            "auctions_count": 7
+        },
+        {
+            "id": 228,
+            "name": "i40",
+            "brand": 28,
+            "auctions_count": 1
+        },
+        {
+            "id": 225,
+            "name": "갤로퍼",
+            "brand": 28,
+            "auctions_count": 1
+        },
+        {
+            "id": 234,
+            "name": "그랜저",
+            "brand": 28,
+            "auctions_count": 46
+        },
+        {
+            "id": 240,
+            "name": "그레이스",
+            "brand": 28,
+            "auctions_count": 0
+        },
+        {
+            "id": 241,
+            "name": "다이너스티",
+            "brand": 28,
+            "auctions_count": 0
+        },
+        {
+            "id": 216,
+            "name": "라비타",
+            "brand": 28,
+            "auctions_count": 0
+        },
+        {
+            "id": 223,
+            "name": "맥스크루즈",
+            "brand": 28,
+            "auctions_count": 1
+        },
+        {
+            "id": 236,
+            "name": "베라크루즈",
+            "brand": 28,
+            "auctions_count": 2
+        },
+        {
+            "id": 231,
+            "name": "베르나",
+            "brand": 28,
+            "auctions_count": 2
+        },
+        {
+            "id": 220,
+            "name": "벨로스터",
+            "brand": 28,
+            "auctions_count": 7
+        },
+        {
+            "id": 227,
+            "name": "산타모",
+            "brand": 28,
+            "auctions_count": 0
+        },
+        {
+            "id": 230,
+            "name": "스타렉스",
+            "brand": 28,
+            "auctions_count": 6
+        },
+        {
+            "id": 229,
+            "name": "싼타페",
+            "brand": 28,
+            "auctions_count": 20
+        },
+        {
+            "id": 237,
+            "name": "쏘나타",
+            "brand": 28,
+            "auctions_count": 29
+        },
+        {
+            "id": 842,
+            "name": "쏠라티",
+            "brand": 28,
+            "auctions_count": 0
+        },
+        {
+            "id": 215,
+            "name": "아반떼",
+            "brand": 28,
+            "auctions_count": 31
+        },
+        {
+            "id": 239,
+            "name": "아슬란",
+            "brand": 28,
+            "auctions_count": 1
+        },
+        {
+            "id": 843,
+            "name": "아이오닉",
+            "brand": 28,
+            "auctions_count": 5
+        },
+        {
+            "id": 217,
+            "name": "아토스",
+            "brand": 28,
+            "auctions_count": 0
+        },
+        {
+            "id": 211,
+            "name": "에쿠스",
+            "brand": 28,
+            "auctions_count": 3
+        },
+        {
+            "id": 238,
+            "name": "엑센트",
+            "brand": 28,
+            "auctions_count": 3
+        },
+        {
+            "id": 219,
+            "name": "제네시스",
+            "brand": 28,
+            "auctions_count": 19
+        },
+        {
+            "id": 927,
+            "name": "코나",
+            "brand": 28,
+            "auctions_count": 2
+        },
+        {
+            "id": 233,
+            "name": "클릭",
+            "brand": 28,
+            "auctions_count": 1
+        },
+        {
+            "id": 224,
+            "name": "테라칸",
+            "brand": 28,
+            "auctions_count": 1
+        },
+        {
+            "id": 212,
+            "name": "투스카니",
+            "brand": 28,
+            "auctions_count": 0
+        },
+        {
+            "id": 244,
+            "name": "투싼",
+            "brand": 28,
+            "auctions_count": 15
+        },
+        {
+            "id": 221,
+            "name": "트라제 XG",
+            "brand": 28,
+            "auctions_count": 1
+        },
+        {
+            "id": 210,
+            "name": "티뷰론",
+            "brand": 28,
+            "auctions_count": 0
+        },
+        {
+            "id": 851,
+            "name": "화물·버스·특장",
+            "brand": 28,
+            "auctions_count": 0
+        }
+    ],
+    "model": [
+        {
+            "id": 1296,
+            "name": "아이오닉 일렉트릭",
+            "model_group": 843,
+            "auctions_count": 0
+        },
+        {
+            "id": 1289,
+            "name": "아이오닉",
+            "model_group": 843,
+            "auctions_count": 5
+        }
+    ]
+}

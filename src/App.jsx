@@ -6,7 +6,14 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { useState } from 'react'
 import RadioGroup from './RadioGroup'
 import Radio from './Radio'
-const queryClient = new QueryClient()
+import Home from './Home'
+const queryClient = new QueryClient({
+    defaultOptions: {
+        queries: {
+            suspense: true,
+        },
+    },
+})
 
 function App() {
     const [value, setValue] = useState('people')
@@ -23,7 +30,7 @@ function App() {
                         종류
                     </Radio>
                 </RadioGroup>
-                {value === 'people' ? <InfinitePeople /> : <InfiniteSpecies />}
+                <Home value={value}></Home>
             </div>
             <ReactQueryDevtools initialIsOpen={false} />
         </QueryClientProvider>

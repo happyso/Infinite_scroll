@@ -1,0 +1,585 @@
+{
+    "data": {
+        "count": 734,
+        "next": "http://webfront.recruit.heydealer.com/v2/cars/?page=6",
+        "previous": "http://webfront.recruit.heydealer.com/v2/cars/?page=4",
+        "results": [
+            {
+                "id": 1388,
+                "detail": {
+                    "name": "더 뉴 모하비 디젤 3.0 4WD 프레지던트",
+                    "model": 1247,
+                    "location": "경기 안산시",
+                    "car_number": "29소0452",
+                    "year": 2017,
+                    "fuel": "diesel",
+                    "color": "검정",
+                    "mileage": 32000,
+                    "transmission": "auto",
+                    "initial_registration_date": "2016-08-23",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180801/1852695_8e6f03a0-d72a-448b-97c4-ec7b3fa93a8a.JPEG",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-10 19:18:48",
+                    "end_at": "2022-11-12 19:18:48",
+                    "expire_at": "2022-11-14 19:18:48",
+                    "status": "expired",
+                    "highest_bid": {
+                        "id": 121307,
+                        "price": 9300
+                    },
+                    "bids_count": 4
+                }
+            },
+            {
+                "id": 1387,
+                "detail": {
+                    "name": "BMW 5시리즈 6세대 530d xDrive 6세대 F10",
+                    "model": 1165,
+                    "location": "경기 김포시",
+                    "car_number": "16서5005",
+                    "year": 2014,
+                    "fuel": "diesel",
+                    "color": "화이트",
+                    "mileage": 110000,
+                    "transmission": "auto",
+                    "initial_registration_date": "2014-07-17",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1859010_493f8066-d700-4722-a408-3fc3e538ebc8.jpg",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-05 21:58:46",
+                    "end_at": "2022-11-07 21:58:46",
+                    "expire_at": "2022-11-09 21:58:46",
+                    "status": "expired",
+                    "highest_bid": {
+                        "id": 123192,
+                        "price": 8900
+                    },
+                    "bids_count": 8
+                }
+            },
+            {
+                "id": 1386,
+                "detail": {
+                    "name": "뉴SM3 RE",
+                    "model": 938,
+                    "location": "충남 천안시",
+                    "car_number": "12저2959",
+                    "year": 2014,
+                    "fuel": "gasoline",
+                    "color": "은색",
+                    "mileage": 105000,
+                    "transmission": "auto",
+                    "initial_registration_date": "2014-01-03",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180801/1852352_2015661e-1136-455e-8ce7-04899c5169e6.JPEG",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-06 22:29:35",
+                    "end_at": "2022-11-08 22:29:35",
+                    "expire_at": "2022-11-10 22:29:35",
+                    "status": "expired",
+                    "highest_bid": null,
+                    "bids_count": 0
+                }
+            },
+            {
+                "id": 1385,
+                "detail": {
+                    "name": "에쿠스(신형) VL500 프레스티지",
+                    "model": 295,
+                    "location": "경기 남양주시",
+                    "car_number": "14너5541",
+                    "year": 2010,
+                    "fuel": "gasoline",
+                    "color": "검정",
+                    "mileage": 89000,
+                    "transmission": "auto",
+                    "initial_registration_date": "2009-10-20",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180801/1852279_484c99ce-7d12-45d4-a02c-37a5c93b1674.JPEG",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-11 08:49:01",
+                    "end_at": "2022-11-13 08:49:01",
+                    "expire_at": "2022-11-15 08:49:01",
+                    "status": "expired",
+                    "highest_bid": null,
+                    "bids_count": 0
+                }
+            },
+            {
+                "id": 1384,
+                "detail": {
+                    "name": "벤츠 C-클래스 4세대(W205) C200 AMG Line 4세대",
+                    "model": 455,
+                    "location": "서울 강남구",
+                    "car_number": "09다1155",
+                    "year": 2017,
+                    "fuel": "gasoline",
+                    "color": "화이트",
+                    "mileage": 20000,
+                    "transmission": "auto",
+                    "initial_registration_date": "2017-03-16",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180801/1853549_01b5aea0-b757-4c51-a212-4d2c06be3416.jpg",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-11 04:25:41",
+                    "end_at": "2022-11-13 04:25:41",
+                    "expire_at": "2022-11-15 04:25:41",
+                    "status": "expired",
+                    "highest_bid": {
+                        "id": 123291,
+                        "price": 10000
+                    },
+                    "bids_count": 11
+                }
+            },
+            {
+                "id": 1383,
+                "detail": {
+                    "name": "포드 F150 3.5L",
+                    "model": 438,
+                    "location": "경남 창원시",
+                    "car_number": "88도9239",
+                    "year": 2013,
+                    "fuel": "gasoline",
+                    "color": "흑장미투톤",
+                    "mileage": 39000,
+                    "transmission": "auto",
+                    "initial_registration_date": "2016-03-08",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180801/1853810_7659518b-a439-40a1-85df-f9c4d457d7dd.JPEG",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-07 21:13:28",
+                    "end_at": "2022-11-09 21:13:28",
+                    "expire_at": "2022-11-11 21:13:28",
+                    "status": "expired",
+                    "highest_bid": null,
+                    "bids_count": 0
+                }
+            },
+            {
+                "id": 1382,
+                "detail": {
+                    "name": "더 넥스트 스파크 LT 플러스",
+                    "model": 775,
+                    "location": "인천 계양구",
+                    "car_number": "45소6134",
+                    "year": 2017,
+                    "fuel": "gasoline",
+                    "color": "건그레이",
+                    "mileage": 18800,
+                    "transmission": "auto",
+                    "initial_registration_date": "2016-12-15",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180801/1850848_6224195f-e477-43bf-91ec-bc5cd2cbd377.JPEG",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-08 19:20:17",
+                    "end_at": "2022-11-10 19:20:17",
+                    "expire_at": "2022-11-12 19:20:17",
+                    "status": "expired",
+                    "highest_bid": null,
+                    "bids_count": 0
+                }
+            },
+            {
+                "id": 1381,
+                "detail": {
+                    "name": "뉴 EF 쏘나타 2.0 GVS 기본형",
+                    "model": 371,
+                    "location": "경북 포항시",
+                    "car_number": "69다4022",
+                    "year": 2002,
+                    "fuel": "gasoline",
+                    "color": "흰색",
+                    "mileage": 78000,
+                    "transmission": "auto",
+                    "initial_registration_date": "2002-12-02",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180801/1852789_c5bef01b-8edf-47d8-bba2-585eadbeed8f.jpeg",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-08 15:56:24",
+                    "end_at": "2022-11-10 15:56:24",
+                    "expire_at": "2022-11-12 15:56:24",
+                    "status": "expired",
+                    "highest_bid": {
+                        "id": 122914,
+                        "price": 9100
+                    },
+                    "bids_count": 5
+                }
+            },
+            {
+                "id": 1380,
+                "detail": {
+                    "name": "아우디 A4 4세대(B8) 30 TDI 다이나믹 4세대 B8",
+                    "model": 1183,
+                    "location": "경기 남양주시",
+                    "car_number": "02무2494",
+                    "year": 2015,
+                    "fuel": "diesel",
+                    "color": "흰색",
+                    "mileage": 97079,
+                    "transmission": "auto",
+                    "initial_registration_date": "2015-03-30",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1857171_b77b6900-fa26-46e5-9c0e-201db3703569.JPEG",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-08 12:17:15",
+                    "end_at": "2022-11-10 12:17:15",
+                    "expire_at": "2022-11-12 12:17:15",
+                    "status": "expired",
+                    "highest_bid": {
+                        "id": 123407,
+                        "price": 9200
+                    },
+                    "bids_count": 3
+                }
+            },
+            {
+                "id": 1379,
+                "detail": {
+                    "name": "제네시스 DH G330 모던 AWD",
+                    "model": 320,
+                    "location": "경기 안산시",
+                    "car_number": "57러0395",
+                    "year": 2016,
+                    "fuel": "gasoline",
+                    "color": "어반그레이(진한 회색)입니다",
+                    "mileage": 28000,
+                    "transmission": "auto",
+                    "initial_registration_date": "2016-01-04",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180801/1853166_6241f05c-0351-446a-b3a4-5759611bafe7.JPEG",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-08 18:15:29",
+                    "end_at": "2022-11-10 18:15:29",
+                    "expire_at": "2022-11-12 18:15:29",
+                    "status": "expired",
+                    "highest_bid": null,
+                    "bids_count": 0
+                }
+            },
+            {
+                "id": 1378,
+                "detail": {
+                    "name": "미니 쿠퍼 3세대(F56) 쿠퍼 S 기본형 3세대 3세대",
+                    "model": 1228,
+                    "location": "경남 창원시",
+                    "car_number": "38나3188",
+                    "year": 2017,
+                    "fuel": "gasoline",
+                    "color": "페퍼화이트",
+                    "mileage": 41000,
+                    "transmission": "auto",
+                    "initial_registration_date": "2017-04-27",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180801/1850986_2bc2b686-335f-4e96-8cad-af5254278afd.JPEG",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-07 18:35:20",
+                    "end_at": "2022-11-09 18:35:20",
+                    "expire_at": "2022-11-11 18:35:20",
+                    "status": "expired",
+                    "highest_bid": {
+                        "id": 121995,
+                        "price": 8800
+                    },
+                    "bids_count": 9
+                }
+            },
+            {
+                "id": 1377,
+                "detail": {
+                    "name": "크루즈 1.6 LT+",
+                    "model": 784,
+                    "location": "경기 하남시",
+                    "car_number": "16라9353",
+                    "year": 2011,
+                    "fuel": "gasoline",
+                    "color": "쥐색",
+                    "mileage": 32800,
+                    "transmission": "auto",
+                    "initial_registration_date": "2011-07-22",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180725/1825230_db72061a-443a-4912-b043-57088b8b2862.JPEG",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-05 15:38:06",
+                    "end_at": "2022-11-07 15:38:06",
+                    "expire_at": "2022-11-09 15:38:06",
+                    "status": "expired",
+                    "highest_bid": {
+                        "id": 123913,
+                        "price": 9200
+                    },
+                    "bids_count": 2
+                }
+            },
+            {
+                "id": 1376,
+                "detail": {
+                    "name": "그랜저 HG HG220 디젤 프리미엄",
+                    "model": 354,
+                    "location": "대전 대덕구",
+                    "car_number": "25너3290",
+                    "year": 2015,
+                    "fuel": "diesel",
+                    "color": "흰색",
+                    "mileage": 44592,
+                    "transmission": "auto",
+                    "initial_registration_date": "2014-12-18",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180801/1852276_9a21fcbd-d4f4-4d3e-9df7-18c040c8adca.JPEG",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-09 03:35:40",
+                    "end_at": "2022-11-11 03:35:40",
+                    "expire_at": "2022-11-13 03:35:40",
+                    "status": "expired",
+                    "highest_bid": null,
+                    "bids_count": 0
+                }
+            },
+            {
+                "id": 1375,
+                "detail": {
+                    "name": "K3 디럭스",
+                    "model": 566,
+                    "location": "경기 화성시",
+                    "car_number": "02수8572",
+                    "year": 2013,
+                    "fuel": "gasoline",
+                    "color": "회섹",
+                    "mileage": 152000,
+                    "transmission": "auto",
+                    "initial_registration_date": "2013-04-19",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180730/1844021_420f080f-470f-4583-9cb5-c8032fd19ddf.JPEG",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-08 14:34:28",
+                    "end_at": "2022-11-10 14:34:28",
+                    "expire_at": "2022-11-12 14:34:28",
+                    "status": "expired",
+                    "highest_bid": {
+                        "id": 123075,
+                        "price": 9700
+                    },
+                    "bids_count": 7
+                }
+            },
+            {
+                "id": 1374,
+                "detail": {
+                    "name": "아이오닉 N",
+                    "model": 1289,
+                    "location": "경기 수원시",
+                    "car_number": "10더8180",
+                    "year": 2018,
+                    "fuel": "hybrid",
+                    "color": "흰색",
+                    "mileage": 9652,
+                    "transmission": "auto",
+                    "initial_registration_date": "2017-09-22",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180725/1821030_ba9e9bae-df5d-4118-aaef-536298f8bc5a.JPEG",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-11 12:08:53",
+                    "end_at": "2022-11-13 12:08:53",
+                    "expire_at": "2022-11-15 12:08:53",
+                    "status": "expired",
+                    "highest_bid": {
+                        "id": 123851,
+                        "price": 10000
+                    },
+                    "bids_count": 15
+                }
+            },
+            {
+                "id": 1373,
+                "detail": {
+                    "name": "BMW X4 1세대(F26) xDrive30d M 스포츠",
+                    "model": 110,
+                    "location": "경기 수원시",
+                    "car_number": "68러6642",
+                    "year": 2015,
+                    "fuel": "diesel",
+                    "color": "회색",
+                    "mileage": 66000,
+                    "transmission": "auto",
+                    "initial_registration_date": "2014-12-30",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180731/1848845_c8d36238-1019-4008-8a78-48c77fab226e.jpg",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-10 06:56:55",
+                    "end_at": "2022-11-12 06:56:55",
+                    "expire_at": "2022-11-14 06:56:55",
+                    "status": "expired",
+                    "highest_bid": null,
+                    "bids_count": 0
+                }
+            },
+            {
+                "id": 1372,
+                "detail": {
+                    "name": "뉴SM5(신형) LE",
+                    "model": 925,
+                    "location": "인천 남동구",
+                    "car_number": "29노5452",
+                    "year": 2010,
+                    "fuel": "gasoline",
+                    "color": "블랙펄",
+                    "mileage": 110300,
+                    "transmission": "auto",
+                    "initial_registration_date": "2010-07-29",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180801/1850798_f9e1bbcb-af1c-4d9b-9edf-6c2783bfcc3b.JPEG",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-09 16:26:42",
+                    "end_at": "2022-11-11 16:26:42",
+                    "expire_at": "2022-11-13 16:26:42",
+                    "status": "expired",
+                    "highest_bid": null,
+                    "bids_count": 0
+                }
+            },
+            {
+                "id": 1371,
+                "detail": {
+                    "name": "BMW 6시리즈 3세대 640i 그란쿠페 3세대 F06",
+                    "model": 1168,
+                    "location": "세종 세종특별자치시",
+                    "car_number": "27서9113",
+                    "year": 2013,
+                    "fuel": "gasoline",
+                    "color": "하바나색",
+                    "mileage": 38500,
+                    "transmission": "auto",
+                    "initial_registration_date": "2012-10-31",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180801/1852963_6ffb3593-9ad1-459b-bf54-418a04e5c509.jpeg",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-05 21:35:37",
+                    "end_at": "2022-11-07 21:35:37",
+                    "expire_at": "2022-11-09 21:35:37",
+                    "status": "expired",
+                    "highest_bid": {
+                        "id": 122906,
+                        "price": 9600
+                    },
+                    "bids_count": 3
+                }
+            },
+            {
+                "id": 1370,
+                "detail": {
+                    "name": "지프 랭글러 3세대(JK) 2.8 디젤 루비콘 2도어 JK",
+                    "model": 1295,
+                    "location": "대구 북구",
+                    "car_number": "41고2887",
+                    "year": 2010,
+                    "fuel": "diesel",
+                    "color": "은색",
+                    "mileage": 92000,
+                    "transmission": "auto",
+                    "initial_registration_date": "2010-12-08",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1857310_dc7b9b30-1f11-443b-984c-9a3a2f641eda.JPEG",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-11 06:19:41",
+                    "end_at": "2022-11-13 06:19:41",
+                    "expire_at": "2022-11-15 06:19:41",
+                    "status": "expired",
+                    "highest_bid": {
+                        "id": 121943,
+                        "price": 9800
+                    },
+                    "bids_count": 5
+                }
+            },
+            {
+                "id": 1369,
+                "detail": {
+                    "name": "포르쉐 파나메라 4.8 GTS 970",
+                    "model": 716,
+                    "location": "서울 강남구",
+                    "car_number": "45구9717",
+                    "year": 2015,
+                    "fuel": "gasoline",
+                    "color": "커민레드",
+                    "mileage": 40000,
+                    "transmission": "auto",
+                    "initial_registration_date": "2015-02-24",
+                    "main_image": {
+                        "url": "https://heydealer-api.s3.amazonaws.com/media/cars/image/20180802/1856848_3627d1e1-0dda-453d-90e0-2b504c632aff.JPEG",
+                        "is_main": true
+                    }
+                },
+                "auction": {
+                    "started_at": "2022-11-09 01:01:46",
+                    "end_at": "2022-11-11 01:01:46",
+                    "expire_at": "2022-11-13 01:01:46",
+                    "status": "expired",
+                    "highest_bid": {
+                        "id": 122491,
+                        "price": 7600
+                    },
+                    "bids_count": 5
+                }
+            }
+        ]
+    }
+}
