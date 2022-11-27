@@ -10,7 +10,9 @@ export default function Radio({
     style,
 }) {
     const group = useContext(RadioContext)
-    const handleChange = (e) => group.onChange && group.onChange(e.target.value)
+    const handleChange = (e) => {
+        return group.onChange && group.onChange(e.target.value)
+    }
 
     return (
         <label style={style}>
@@ -21,8 +23,8 @@ export default function Radio({
                 defaultChecked={defaultChecked}
                 disabled={disabled || group.disabled}
                 checked={
-                    group.value !== undefined
-                        ? value === group.value
+                    Number(group.value) !== undefined
+                        ? value === Number(group.value)
                         : undefined
                 }
                 onChange={handleChange}

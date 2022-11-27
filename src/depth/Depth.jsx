@@ -1,6 +1,8 @@
-import { useEffect, useState, useCallback } from 'react'
+import { useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
-import useAlbums from './hooks/useAlbums'
+
+import RadioGroup from '../RadioGroup'
+import Radio from '../Radio'
 
 async function fetchUsers() {
     const response = await fetch(`https://jsonplaceholder.typicode.com/users`)
@@ -14,34 +16,77 @@ async function fetchAlbums(userID) {
     return response.json()
 }
 
-const Li = ({ item, setResultData }) => {
-    const handleClick = (e, item) => {
-        if (e.currentTarget !== e.target) return
-        setResultData({
-            id: item.id,
-            title: item.title,
-        })
-    }
+async function fetchPhoto(albumID) {
+    const response = await fetch(
+        `https://jsonplaceholder.typicode.com/albums/${albumID}/photos`
+    )
+    return response.json()
+}
+
+export function DepthTwo({ id, depth }) {
+    const [albumId, setAlbumId] = useState(0)
+    const { data, isLoading } = useQuery(
+        ['albums', id],
+        () => fetchAlbums(id),
+        {
+            staleTime: 5000,
+        }
+    )
+
+    if (isLoading) return <p>Loading ....</p>
+
     return (
-        <li
-            onClick={(e) => {
-                handleClick(e, item)
-            }}
-        >
-            {item.title}
-        </li>
+        <RadioGroup label={depth} value={albumId} onChange={setAlbumId}>
+            {data &&
+                data.map((item) => {
+                    return (
+                        <Radio
+                            key={item.id}
+                            value={item.id}
+                            style={{ display: 'block' }}
+                            name={depth}
+                        >
+                            {item.title}
+
+                            {Number(albumId) === item.id && (
+                                <DepthThree id={albumId} depth="depth3" />
+                            )}
+                        </Radio>
+                    )
+                })}
+        </RadioGroup>
+    )
+}
+
+export function DepthThree({ id, depth }) {
+    const [value, setValue] = useState(0)
+    const { data, isLoading } = useQuery(['photos', id], () => fetchPhoto(id), {
+        staleTime: 5000,
+    })
+
+    if (isLoading) return <p>Loading ....</p>
+
+    return (
+        <RadioGroup label={depth} value={value} onChange={setValue}>
+            {data &&
+                data.map((item) => {
+                    return (
+                        <Radio
+                            key={item.id}
+                            value={item.id}
+                            style={{ display: 'block' }}
+                            name={depth}
+                        >
+                            {item.title}
+                        </Radio>
+                    )
+                })}
+        </RadioGroup>
     )
 }
 
 export function Depth() {
-    const [resultData, setResultData] = useState(null)
-
-    const [userId, setUserId] = useState('')
-
-    const [albumList, setAlbumList] = useState([])
-
-    //data는 전체 데이터 리스트
-    //seletecitem은 선택된 1:2:3: 뎁스별 카테고리 리스트
+    const [userId, setUserId] = useState(0)
     const { data: userData, isLoading } = useQuery(
         ['users'],
         () => fetchUsers(),
@@ -50,69 +95,29 @@ export function Depth() {
         }
     )
 
-    // const {
-    //     data: userDetailData,
-    //     isLoading: DetailLoding,
-    //     refetch,
-    // } = useQuery(['usersDetail'], () => fetchAlbums(currentUser), {
-    //     enabled: false,
-    // })
-
-    const { data: albumData, refetch } = useQuery(
-        ['albums', userId],
-        () => fetchAlbums(userId),
-        {
-            enabled: false,
-        }
-    )
-
-    useEffect(() => {
-        console.log(resultData)
-    }, [resultData])
-
-    useEffect(() => {
-        if (userId) {
-            refetch()
-        }
-    }, [userId, refetch])
-
-    useEffect(() => {
-        setAlbumList(
-            albumData?.map((item) => (
-                <Li key={item.id} item={item} setResultData={setResultData} />
-            ))
-        )
-    }, [albumData])
-
     if (isLoading) return <p>Loading ....</p>
-
-    const handleClickItem = (item) => {
-        //setSelectedItems((prev) => ({ ...prev, [level]: item }))
-        setUserId(item.id)
-    }
-    //TO DO : data fetch 및 최종 data를 정리하는 hook 로직 개발 필요
-    //
 
     return (
         <>
-            <ul>
+            <RadioGroup label="depth1" value={userId} onChange={setUserId}>
                 {userData &&
-                    userData?.map((item) => {
+                    userData.map((item) => {
                         return (
-                            <li
-                                className="menu-items"
-                                key={item.id}
-                                id={item.id}
-                                onClick={() => {
-                                    handleClickItem(item)
-                                }}
-                            >
-                                {item.id} : {item.name}
-                                <ul>{item.id === userId && albumList}</ul>
-                            </li>
+                            <div key={item.id}>
+                                <Radio
+                                    value={item.id}
+                                    style={{ display: 'block' }}
+                                    name="depth1"
+                                >
+                                    {item.id} : {item.name}
+                                </Radio>
+                                {Number(userId) === item.id && (
+                                    <DepthTwo id={userId} depth="depth2" />
+                                )}
+                            </div>
                         )
                     })}
-            </ul>
+            </RadioGroup>
         </>
     )
 }
