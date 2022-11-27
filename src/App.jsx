@@ -28,6 +28,7 @@ function App() {
                 {/* <Home value={value}></Home> */}
                 <Depth />
             </div>
+            <ReactQueryDevtools initialIsOpen={false} />
         </QueryClientProvider>
     )
 }
