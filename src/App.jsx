@@ -7,13 +7,8 @@ import { useState } from 'react'
 import RadioGroup from './RadioGroup'
 import Radio from './Radio'
 import Home from './Home'
-const queryClient = new QueryClient({
-    defaultOptions: {
-        queries: {
-            suspense: true,
-        },
-    },
-})
+import { Depth } from './depth/Depth'
+const queryClient = new QueryClient()
 
 function App() {
     const [value, setValue] = useState('people')
@@ -22,17 +17,17 @@ function App() {
         <QueryClientProvider client={queryClient}>
             <div className="App">
                 <h1>Infinite SWAPI</h1>
-                <RadioGroup label="선택 하기" value={value} onChange={setValue}>
+                {/* <RadioGroup label="선택 하기" value={value} onChange={setValue}>
                     <Radio value="people" style={{ display: 'block' }}>
                         사람
                     </Radio>
                     <Radio value="species" style={{ display: 'block' }}>
                         종류
                     </Radio>
-                </RadioGroup>
-                <Home value={value}></Home>
+                </RadioGroup> */}
+                {/* <Home value={value}></Home> */}
+                <Depth />
             </div>
-            <ReactQueryDevtools initialIsOpen={false} />
         </QueryClientProvider>
     )
 }

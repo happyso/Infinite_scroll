@@ -1,4 +1,3 @@
-import { Suspense } from 'react'
 import useInfiniteScroll from '../hooks/useInfiniteScroll'
 import { Person } from './Person'
 
