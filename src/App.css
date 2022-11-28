@@ -25,3 +25,13 @@
     align-items: flex-start;
     margin-left: 10px;
 }
+
+.wrapTree {
+    display: flex;
+}
+.wrapTree > div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid #ddd;
+}

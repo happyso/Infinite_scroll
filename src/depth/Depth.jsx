@@ -85,7 +85,14 @@ export function DepthThree({ id, depth }) {
     )
 }
 
-export function Depth() {
+export function Depth({ data }) {
+    /* const data {
+        1: []
+        2: []
+        3: []
+    } */
+
+    /* seletedTree setSelectedTree =  */
     const [userId, setUserId] = useState(0)
     const { data: userData, isLoading } = useQuery(
         ['users'],

@@ -23,8 +23,8 @@ export default function Radio({
                 defaultChecked={defaultChecked}
                 disabled={disabled || group.disabled}
                 checked={
-                    Number(group.value) !== undefined
-                        ? value === Number(group.value)
+                    group.value !== undefined
+                        ? value === group.value
                         : undefined
                 }
                 onChange={handleChange}
